@@ -11,9 +11,9 @@ import Button from "@mui/material/Button";
 import MenuItem from "@mui/material/MenuItem";
 import GitHubIcon from "@mui/icons-material/GitHub";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
-import image from "../../assets/6V9A4832.JPG";
 import { NavLink } from "react-router-dom";
 import { Avatar, Grid, Stack } from "@mui/material";
+import avator from "../../assets/Avator.JPG";
 
 function ResponsiveAppBar() {
   const [anchorElNav, setAnchorElNav] = React.useState(null);
@@ -48,7 +48,7 @@ function ResponsiveAppBar() {
           >
             <Grid item lg={3} md={3} xl={3} sm={3} xs={3}>
               <Stack>
-                <Avatar src={image} />
+                <Avatar src={avator} />
               </Stack>
             </Grid>
             <Grid

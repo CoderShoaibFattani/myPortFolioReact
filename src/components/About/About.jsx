@@ -65,6 +65,7 @@ function About() {
           </Box>
         </Grid>
         <Grid
+          item
           lg={6}
           xl={6}
           md={12}
