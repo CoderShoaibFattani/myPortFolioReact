@@ -39,7 +39,7 @@ const Skill = ({ skill }) => (
 
 const Skills = () => {
   return (
-    <Paper elevation={24}>
+    <Paper elevation={24} sx={{ marginBottom: "10px" }}>
       <Box sx={{ padding: 4, backgroundColor: "black", color: "white" }}>
         <Typography variant="h4" sx={{ mb: 4, textAlign: "center" }}>
           My Skill Set

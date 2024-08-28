@@ -1,12 +1,13 @@
 import About from "../About/About";
 import Skills from "../Skills/Skills";
-// import ResponsiveAppBar from "../MUIComponents/ResponsiveAppBar";
+import Projects from "../Projects/Projects";
 
 function Home() {
   return (
     <>
       <About />
       <Skills />
+      <Projects />
     </>
   );
 }
